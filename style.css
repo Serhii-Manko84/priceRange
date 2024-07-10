@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.amount {
+  color: rgb(230, 230, 0);
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.dollars {
+  font-size: 60px;
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+  width: 700px;
+  height: 25px;
+  outline: none;
+  background-color: rgb(183, 181, 181);
+  border-radius: 10px;  
+}
+
+
+
+input[type=range]::-webkit-slider-thumb {
+   appearance: none;
+  width: 55px;
+  height: 55px;
+  background: rgb(227, 205, 3);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button{
+ width: 300px;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(227, 205, 3);
+  border-radius: 20px;
+  border: none;
+}
+
+
+button:hover{
+  
+   color:rgb(227, 205, 3);
+   background-color:  rgb(0, 21, 253);
+ }
